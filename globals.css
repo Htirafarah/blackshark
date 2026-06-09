@@ -16,6 +16,23 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
+
+/* Social Media Links Styling */
+a.social-link {
+  display: inline-flex;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+a.social-link:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 15px rgba(0, 255, 102, 0.5));
+}
+
+a.social-link:active {
+  transform: scale(0.98);
+}
 /* @FONTWARNING[{"type": "restricted", "family": "Space Grotesk-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
 
 @font-face {
