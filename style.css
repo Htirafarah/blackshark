@@ -91,6 +91,9 @@
   height: fit-content;
   gap: 16px;
   padding: 40px 0px 0px;
+  margin: 0 auto;
+  width: fit-content;
+  max-width: 100%;
 }
 
 .desctop .overlay-border {
