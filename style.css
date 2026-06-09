@@ -469,6 +469,9 @@
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
+  background-image: url(./img/in-the-lab.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .desctop .container-10 {
@@ -739,6 +742,9 @@
     rgba(255, 255, 255, 1) 100%
   );
   opacity: 0.5;
+  background-image: url(./img/robot-internals.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .desctop .overlay-border-6 {
@@ -1072,11 +1078,8 @@
   height: calc(100% - 2px);
   top: 1px;
   left: 1px;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-size: cover;
+  background-position: center;
 }
 
 .desctop .gradient-2 {
@@ -1248,11 +1251,9 @@
   height: calc(100% - 40px);
   top: 20px;
   left: 17px;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-image: url(./img/omar.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .desctop .section-sponsors {
@@ -1723,4 +1724,29 @@
   top: 62.50%;
   background-color: #00ff66;
   filter: blur(1px);
+}
+
+/* Team member background images */
+.desctop .ahmed > .div-3 {
+  background-image: url(./img/ahmed.jpg);
+}
+
+.desctop .oussema > .div-3 {
+  background-image: url(./img/oussema.jpg);
+}
+
+.desctop .abdesselem > .div-3 {
+  background-image: url(./img/abdesselem.jpg);
+}
+
+.desctop .amine > .div-3 {
+  background-image: url(./img/amine.jpg);
+}
+
+.desctop .badii > .div-3 {
+  background-image: url(./img/badii.png);
+}
+
+.desctop .omar > .div-3 {
+  background-image: url(./img/omar.jpg);
 }
